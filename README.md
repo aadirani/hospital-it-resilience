@@ -62,5 +62,3 @@ Details and the alternatives considered are in [ARCHITECTURE.md](ARCHITECTURE.md
 - All loads, sizes and prices are planning assumptions. Confirm them with vendors and site surveys.
 - The calculator uses a simple energy model. It ignores effects like the faster capacity loss of lead-acid batteries at high discharge rates, so treat its runtime as an upper estimate and add a margin.
 
----
-

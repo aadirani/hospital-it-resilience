@@ -64,4 +64,3 @@ Details and the alternatives considered are in [ARCHITECTURE.md](ARCHITECTURE.md
 
 ---
 
-Built with AI assistance.

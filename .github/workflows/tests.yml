@@ -1,0 +1,18 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Example run
+        run: python tools/ups_runtime.py --load-csv data/sample_load.csv --voltage 48 --capacity-ah 100 --target-minutes 15 --generator-start-seconds 60

@@ -1,0 +1,8 @@
+device,quantity,watts
+virtualization host,2,350
+backup server,1,120
+core switch,1,150
+access switch with PoE phones,4,120
+firewall,2,40
+analog/GSM phone gateway,1,40
+internet routers (fixed + cellular),2,20
